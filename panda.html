@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ACM-Game-Dev :: Physics Mini-Game Suite</title>
+	<title>ACM-Game-Dev :: PandaPlay</title>
 	<style type="text/css">
-		body {
+		html,body {
 			background-color: #000;
 			color: #fff;
 			font-family: helvetica, arial, sans-serif;
@@ -11,21 +11,22 @@
 			padding: 0;
 			font-size: 12pt;
 		}
-		a, a:visited {
-			color: #ffffff
+		
+		#canvas {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			border: 1px solid #555;
 		}
-
 	</style>
 
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
-	<script type="text/javascript" src="lib/game/main.js"></script>
+	<script type="text/javascript" src="lib/game/pandaplay.js"></script>
 </head>
 <body>
-	<p>
-		<a href="weltmeister.html">Weltmeister Tool</a>
-	</p>
-	<p>
-		<a href="panda.html">PandaPlay</a>
-	</p>
+	<canvas id="canvas"></canvas>
 </body>
 </html>
