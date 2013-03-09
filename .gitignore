@@ -1,0 +1,14 @@
+### ImpactJS sdk files
+weltmeister.html
+tools/*
+lib/weltmeister/*
+lib/impact/
+
+### Python web server files
+server.py
+
+### Baked files
+game.min.js
+
+### Linux backup files
+**~
