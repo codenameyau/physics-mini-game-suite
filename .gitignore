@@ -1,8 +1,13 @@
 ### ImpactJS sdk files
 weltmeister.html
-tools/*
 lib/weltmeister/*
 lib/impact/
+
+### ImpactJS bake tool
+tools/bake.bat
+tools/bake.php
+tools/bake.sh
+tools/jsmin.php
 
 ### Python web server files
 server.py
