@@ -8,7 +8,7 @@ lib/impact/
 server.py
 
 ### Baked files
-game.min.js
+*.min.js
 
 ### Linux backup files
 **~
